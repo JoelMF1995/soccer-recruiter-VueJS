@@ -1,4 +1,3 @@
-# resto-vue
 
 > A Vue.js project
 
