@@ -41,25 +41,25 @@
       </div>
       <div>
         <label for="age">Age :</label>
-        <input id="age" type="text" v-model="joueur.age" />
+        <input id="age" type="number" v-model="joueur.age" />
       </div>
       <div>
         <label for="poids">Poids :</label>
-        <input id="poids" type="text" v-model="joueur.poids" />
+        <input id="poids" type="number" v-model="joueur.poids" />
       </div>
       <div>
         <label for="taille">Taille :</label>
-        <input id="taille" type="text" v-model="joueur.taille" />
+        <input id="taille" type="number" v-model="joueur.taille" />
       </div>
 
       <h3>Critères</h3>
       <div>
         <label for="force">Force :</label>
-        <input id="force" type="text" v-model="joueur.force" />
+        <input id="force" type="number" v-model="joueur.force" />
       </div>
       <div>
         <label for="endurance">Endurance :</label>
-        <input type="text" id="endurance" v-model="joueur.endurance" />
+        <input type="number" id="endurance" v-model="joueur.endurance" />
       </div>
       <div>
         <label for="vision">Vision:</label>
