@@ -1,0 +1,332 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-left\tproperty"
+			],
+			[
+				"padd",
+				"padding-top\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"WI",
+				"width\tproperty"
+			],
+			[
+				"padding",
+				"padding-right\tproperty"
+			],
+			[
+				"BORDER",
+				"border-top\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"te",
+				"textehistoire"
+			],
+			[
+				"bac",
+				"background-size\tproperty"
+			],
+			[
+				"size",
+				"size\tproperty"
+			],
+			[
+				"border",
+				"border-top\tproperty"
+			],
+			[
+				"paddin",
+				"padding-top\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"align",
+				"align-self\tproperty"
+			],
+			[
+				"align-",
+				"alignment-baseline\tproperty"
+			],
+			[
+				"ali",
+				"align-content\tproperty"
+			],
+			[
+				"pad",
+				"padding-top\tproperty"
+			],
+			[
+				"for",
+				"Formulaire"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"back",
+				"background\tproperty"
+			],
+			[
+				"marin",
+				"margin-top\tproperty"
+			],
+			[
+				"logoq",
+				"logoqlv"
+			],
+			[
+				"logo",
+				"logoqlv"
+			],
+			[
+				"left",
+				"border-left\tproperty"
+			],
+			[
+				"rgb",
+				"rgba()\tbackground-color"
+			],
+			[
+				"RGB",
+				"rgba()\tbackground-color"
+			],
+			[
+				"ine",
+				"inline-block\tdisplay"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"list",
+				"list-style-type\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 150.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/joelmonteiro/Downloads/sans-titre.json",
+		"/Users/joelmonteiro/Downloads/Travail Java - Joël Monteiro Ferreira--4/Travail Java - Joël Monteiro Ferreira/Travail Java - Joël Monteiro Ferreira/src/exception/ContactAlreadyInEventException.java",
+		"/Users/joelmonteiro/Documents/Novembre et decembre 2020/Joël Monteiro Ferreira - Pré requis - Technologie web/histoire.html",
+		"/Users/joelmonteiro/Downloads/Travail.py",
+		"/Users/joelmonteiro/Downloads/employees_python_script.py",
+		"/Users/joelmonteiro/Desktop/Joël Monteiro Ferreira - Pré requis - Technologie web/imc.js",
+		"/Users/joelmonteiro/Desktop/Joël Monteiro Ferreira - Pré requis - Technologie web/style.css",
+		"/Users/joelmonteiro/Desktop/Joël Monteiro Ferreira - Pré requis - Technologie web/contact.html",
+		"/Users/joelmonteiro/Desktop/Joël Monteiro Ferreira - Pré requis - Technologie web/resultat.html",
+		"/Users/joelmonteiro/Desktop/Joël Monteiro Ferreira - Pré requis - Technologie web/histoire.html",
+		"/Users/joelmonteiro/Desktop/Joël Monteiro Ferreira - Pré requis - Technologie web/equipes.html",
+		"/Users/joelmonteiro/Desktop/Joël Monteiro Ferreira - Pré requis - Technologie web/site-final.html",
+		"/Users/joelmonteiro/Downloads/Joël Monteiro Ferreira - Pré requis - Technologie web/style.css",
+		"/Users/joelmonteiro/Downloads/Joël Monteiro Ferreira - Pré requis - Technologie web/imc.js",
+		"/Users/joelmonteiro/Downloads/Joël Monteiro Ferreira - Pré requis - Technologie web/site-final.html",
+		"/Users/joelmonteiro/Downloads/Joël Monteiro Ferreira - Pré requis - Technologie web/contact.html",
+		"/Users/joelmonteiro/Downloads/Joël Monteiro Ferreira - Pré requis - Technologie web/resultat.html",
+		"/Users/joelmonteiro/Downloads/Joël Monteiro Ferreira - Pré requis - Technologie web/histoire.html",
+		"/Users/joelmonteiro/Downloads/Joël Monteiro Ferreira - Pré requis - Technologie web/equipes.html",
+		"/Users/joelmonteiro/Downloads/Site ecole/style.css",
+		"/Users/joelmonteiro/Downloads/Site ecole/site-final.html",
+		"/Users/joelmonteiro/Downloads/Site ecole/resultat.html",
+		"/Users/joelmonteiro/Downloads/Site ecole/equipes.html",
+		"/Users/joelmonteiro/Downloads/Site ecole/imc.js",
+		"/Users/joelmonteiro/Downloads/Site ecole/contact.html",
+		"/Users/joelmonteiro/Downloads/Site ecole/histoire.html",
+		"/Users/joelmonteiro/Desktop/Site ecole/imc.js",
+		"/Users/joelmonteiro/Desktop/Site ecole/contact.html",
+		"/Users/joelmonteiro/Desktop/Site ecole/style.css",
+		"/Users/joelmonteiro/Desktop/Site ecole/histoire.html",
+		"/Users/joelmonteiro/Desktop/Site ecole/site-final.html",
+		"/Users/joelmonteiro/Desktop/Site ecole/resultat.html",
+		"/Users/joelmonteiro/Desktop/Site ecole/equipes.html",
+		"/Users/joelmonteiro/Desktop/Site ecole/site final.html",
+		"/Users/joelmonteiro/Desktop/Site ecole/Equipes.html",
+		"/Users/joelmonteiro/Desktop/Site ecole/EXERCICE TEST.html",
+		"/Users/joelmonteiro/Desktop/Site ecole/images.html",
+		"/Users/joelmonteiro/Desktop/Site ecole/Lieeen.html",
+		"/Users/joelmonteiro/Downloads/activite_partie1/mathieu_nebra.html",
+		"/Users/joelmonteiro/Desktop/page 2.html",
+		"/Users/joelmonteiro/Downloads/Ligue de futsal.html",
+		"/Users/joelmonteiro/Downloads/Ligue de futsal test.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/BioOrganic/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/BioOrganic/hommes.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/BioOrganic/enfants.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/BioOrganic/femmes.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/BioOrganic/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/BioOrganic/header.php"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
