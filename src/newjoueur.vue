@@ -1,6 +1,6 @@
-  
+
 <template>
-  <div id="joueurlist">
+  <div id="newjoueur">
     <h1>Completez les informations du joueur</h1>
 
     <div>
@@ -49,9 +49,8 @@
           {{ club.nomClub }}
         </option>
       </select>
-    </div>
-
-    <button v-on:click="postJoueur()">Save</button>
+    </div><br>
+    <button v-on:click="postJoueur()" type="button" class="btn add btn-primary">Créer</button>
   </div>
 </template>
 
@@ -113,11 +112,13 @@ export default {
 </script>
 
 <style >
-#joueurlist {
+#newjoueur {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   text-align: center;
-  background-color: rgb(241, 105, 105);
+  background-color: #e9e5e1;
   width: auto;
+  height: 80vh;
+  padding: 32px;
 }
 input,select{
   width: 30%;

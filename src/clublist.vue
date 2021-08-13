@@ -1,9 +1,10 @@
-  
+
 <template>
   <div id="clubList">
     <h1>Liste des club</h1>
     <br>
-    <div v-for="club in clubList" v-bind:key="club.idclub">
+    <div class="table-club" v-for="club in clubList" v-bind:key="club.idclub">
+
       <Club
         v-bind:club="club"
         @update_club_event="updateClub"
@@ -11,9 +12,10 @@
       ></Club>
     <br>
     </div>
+    <br>
     <h3> Créer un nouveau club</h3>
     <div>
-      <label for="nom">Nom du club</label>
+      <label for="nom">Nom du club :</label>
       <input type="text" v-model="club.nomClub" />
       <b-button v-on:click="saveClub()" variant="primary" class="add">Créer club !</b-button>
     </div>
@@ -95,11 +97,15 @@ export default {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   text-align: center;
   color: #2c3e50;
-  background-color: rgb(105, 141, 241);
-  padding: 100px;
-  width: auto;
+  background-color: #e9e5e1;
+  padding: 32px;
+  height: 80vh;
 }
 input {
   width: 30%;
+}
+.table-club {
+  width: 600px;
+  margin: 0 auto;
 }
 </style>

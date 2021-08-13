@@ -1,6 +1,6 @@
  <template>
   <div id="app">
-    <h1>      <img src="./assets/College-soccer-recruiting.png" style="width: 120px; height: 80px"/>
+    <h1>      <img src="./assets/logo4.png" style="max-width: 75px; margin: 5px;"/>
 Soccer Recruiters</h1>
     <div id="nav">
       <b-nav>
@@ -11,6 +11,7 @@ Soccer Recruiters</h1>
     </div>
 
     <router-view />
+    <footer> ©2021 Joel Monteiro Fereira : Tous droits réservés </footer>
   </div>
 </template>
 
@@ -28,7 +29,7 @@ export default {
 
 <style>
 #nav{
-  background-color: #cc6622; 
+  background-color:#201e20;;
 }
 #nav a {
   color: rgb(255, 255, 255);
@@ -51,5 +52,10 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer {
+  background: #201e20;
+  color: white;
 }
 </style>

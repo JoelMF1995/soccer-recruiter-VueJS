@@ -1,10 +1,11 @@
-  
-<template>
-  <div id="joueurlist">
-    <h1>Liste des joueurs</h1>
 
-    <div v-for="joueur in joueurList" v-bind:key="joueur.idjoueur">
-      <Joueur v-bind:joueur="joueur" v-bind:clubList="clubList" @event_update="update" @event_delete="deleteJoueur"></Joueur>
+<template>
+  <div id="joueurlist" >
+    <h1>Liste des joueurs</h1>
+    <div class="row">
+    <div v-for="joueur in joueurList" v-bind:key="joueur.idjoueur" class="col-sm col-md col-lg">
+      <Joueur  v-bind:joueur="joueur" v-bind:clubList="clubList" @event_update="update" @event_delete="deleteJoueur"></Joueur>
+    </div>
     </div>
   </div>
 </template>
@@ -78,7 +79,7 @@ export default {
     },
   },
 
-  mounted() {    
+  mounted() {
     this.get_joueurList();
     this.get_clubList();
   },
@@ -90,8 +91,7 @@ export default {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   text-align: center;
   color: #2c3e50;
-  background-color: rgb(241, 105, 105);
+  background-color: #e9e5e1;
   padding: 100px;
-  width: 100%;
 }
 </style>
