@@ -1,12 +1,12 @@
  <template>
   <div id="app">
-    <h1>      <img src="./assets/logo4.png" style="max-width: 75px; margin: 5px;"/>
+    <h1><router-link to="/"> <img src="./assets/logo4.png" style="max-width: 75px; margin: 5px;"/> </router-link>
 Soccer Recruiters</h1>
     <div id="nav">
       <b-nav>
-        <router-link to="/"> Joueur </router-link>
-        <router-link to="/newplayer"> Nouveau joueur </router-link>
         <router-link to="/clubs"> Liste des clubs </router-link>
+        <router-link to="/"> Liste des joueurs </router-link>
+        <router-link to="/newplayer"> Nouveau joueur </router-link>
       </b-nav>
     </div>
 
