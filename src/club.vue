@@ -46,10 +46,10 @@
 <style>
 
 .type{
-    background-color:rgb(168, 209, 197);
-    width: 300px;
-    margin: 5px auto;
-    padding : 5px;
+  background-color:rgb(168, 209, 197);
+  width: 300px;
+  margin: 5px auto;
+  padding : 5px;
 }
 
 .inline {

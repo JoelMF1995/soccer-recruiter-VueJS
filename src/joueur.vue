@@ -17,7 +17,7 @@
                   <br>
                   <br>
                   Force : {{ joueur.force }}
-                  Endurance : {{ joueur.endurance }} 
+                  Endurance : {{ joueur.endurance }}
                   Vision de jeu :{{ joueur.vision }}
                 </b-card-text>
               </b-card-body>
@@ -75,7 +75,7 @@
         </select>
       </div>
 
-      
+
 
       <button v-on:click="updateJoueur(joueur)">Sauver</button>
       <button v-on:click="deleteJoueur(joueur.idjoueur)">Supprimer</button>
@@ -129,7 +129,7 @@ export default {
 <style>
 .joueur {
   background-color: lightgrey;
-  width: 500px;
+  width: 450px;
   margin: 5px auto;
   padding: 5px;
 }
@@ -151,5 +151,17 @@ label,select {
 .bcard {
   padding: 15%;
   margin: 15%;
+}
+
+@media screen and (max-width: 560px) {
+  .joueur {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .joueur {
+    width: 300px;
+  }
 }
 </style>

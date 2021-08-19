@@ -1,7 +1,7 @@
  <template>
   <div id="app">
-    <h1><router-link to="/"> <img src="./assets/logo4.png" style="max-width: 75px; margin: 5px;"/> </router-link>
-Soccer Recruiters</h1>
+    <router-link to="/"> <img src="./assets/logo4.png" style="max-width: 75px; margin: 5px;"/> </router-link>
+    <span class="brand">Soccer Recruiters</span>
     <div id="nav">
       <b-nav>
         <router-link to="/clubs"> Liste des clubs </router-link>
@@ -54,8 +54,41 @@ export default {
   align-items: center;
 }
 
+.brand {
+  font-weight: bold;
+  font-size: 28px;
+}
+
 footer {
   background: #201e20;
   color: white;
+}
+
+@media screen and (max-width: 775px) {
+  #nav a {
+    font-size: 24px;
+    padding: 6px;
+    margin: 3px;
+  }
+
+  #newjoueur {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 556px) {
+  #nav a {
+    font-size: 18px;
+    padding: 7px;
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  #nav a {
+    font-size: 16px;
+    padding: 5px;
+    margin: 2px auto;
+  }
 }
 </style>

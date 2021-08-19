@@ -129,4 +129,23 @@ label,select {
     width:100px;
     text-align: right;
 }
+
+@media screen and (max-width: 775px) {
+  #newjoueur {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  input,select{
+    width: 65%;
+  }
+  label,select {
+    width:25%;
+  }
+
+  h1, .h1 {
+    font-size: 2rem;
+  }
+}
 </style>

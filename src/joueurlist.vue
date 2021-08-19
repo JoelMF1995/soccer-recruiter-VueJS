@@ -94,4 +94,16 @@ export default {
   background-color: #e9e5e1;
   padding: 100px;
 }
+
+@media screen and (max-width: 680px) {
+  #joueurlist {
+    padding: 50px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  #joueurlist {
+    padding: 25px;
+  }
+}
 </style>

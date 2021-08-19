@@ -99,13 +99,19 @@ export default {
   color: #2c3e50;
   background-color: #e9e5e1;
   padding: 32px;
-  height: 80vh;
+  height: 100vh;
 }
 input {
   width: 30%;
 }
 .table-club {
-  width: 600px;
+  max-width: 600px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 775px) {
+  #clubList {
+    height: auto;
+  }
 }
 </style>
