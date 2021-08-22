@@ -117,7 +117,7 @@ export default {
   text-align: center;
   background-color: #e9e5e1;
   width: auto;
-  height: 80vh;
+  min-height: 80vh;
   padding: 32px;
 }
 input,select{
@@ -141,7 +141,7 @@ label,select {
     width: 65%;
   }
   label,select {
-    width:25%;
+    width:30%;
   }
 
   h1, .h1 {

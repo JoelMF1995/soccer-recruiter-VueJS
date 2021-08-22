@@ -1,7 +1,7 @@
 
 <template>
   <div id="joueurlist" >
-    <h1>Liste des joueurs</h1>
+    <h1 class="list">Liste des joueurs</h1>
     <div class="row">
     <div v-for="joueur in joueurList" v-bind:key="joueur.idjoueur" class="col-sm col-md col-lg">
       <Joueur  v-bind:joueur="joueur" v-bind:clubList="clubList" @event_update="update" @event_delete="deleteJoueur"></Joueur>
@@ -92,7 +92,11 @@ export default {
   text-align: center;
   color: #2c3e50;
   background-color: #e9e5e1;
-  padding: 100px;
+  padding: 0 100px 100px;
+}
+
+h1.list {
+  padding: 36px;
 }
 
 @media screen and (max-width: 680px) {
