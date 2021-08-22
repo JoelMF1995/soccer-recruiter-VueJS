@@ -68,15 +68,12 @@
       <div>
         <label for="club">Club :</label>
         <select v-model="selected">
-          <option :selected=true >Choisi un club</option>
-          <option v-for="club in clubList" v-bind:value="club.idClub" :key="club.idClub">
+          <option v-for="club in clubList" v-bind:value="club.idclub" :key="club.idclub">
             {{ club.nomClub }}
           </option>
         </select>
       </div>
-
-      
-
+    
       <button v-on:click="updateJoueur(joueur)">Sauver</button>
       <button v-on:click="deleteJoueur(joueur.idjoueur)">Supprimer</button>
       <button v-on:click="showInput = false">Annuler</button>
@@ -92,7 +89,7 @@ export default {
   props: ["joueur"],
   data() {
     return {
-      selected: "Choisi un club",
+      selected: "",
       clubList: [],
       showInput: false,
     };
@@ -112,6 +109,7 @@ export default {
     },
 
     updateJoueur(joueur) {
+      joueur.club = this.selected;
       this.$emit("event_update", joueur);
       this.showInput = false;
     },
